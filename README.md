@@ -452,8 +452,8 @@ by executing `$> ctags -r` under project tree:
 
 # Vimdiff
 
-* `do`: get changes from other window into the current window
-* `dp`: put the changes from current window into the other window
+* `do`: get all changes from other window into the current window
+* `dp`: put all the changes from current window into the other window
 * `]c`: jump to the next change
 * `[c`: jump to the previous change
 * `zo`: open fold
@@ -461,6 +461,8 @@ by executing `$> ctags -r` under project tree:
 * `zr`: reducing folding level
 * `zm`: one more folding level, please
 * `:diffupdate`, `:diffu`: recalculate the diff
+* `V :diffget`: get this line 
+* `V :diffput`: put this line
 * `:diffg RE`: get from REMOTE
 * `:diffg BA`: get from BASE
 * `:diffg LO`: get from LOCAL
