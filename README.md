@@ -353,6 +353,8 @@ examples:
 * `:bn[ext]`: jump to next buffer
 * `:bp[rev]`: jump to previous buffer
 * `:bd[elete]`: remove file from buffer list
+* `:vert sb 1`: vertically splits buffer 1	
+
 
 [toc](#table-of-contents)
 
