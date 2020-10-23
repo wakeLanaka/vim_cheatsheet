@@ -330,6 +330,22 @@ examples:
 
 ## Command mode
 
+### Navigation
+* `CTRL-Left`: jump left for 1 word
+* `CTRL-E`: jump to the end of the command
+* `CTRL-B`: jump to the beginning of the command
+* `CTRL-R`: lets you get access to the registers
+* `CTRL-R CTRL-W`: adds the word under the cursor to the commandline
+
+### Substitute
+* `:%s/four/4/g`: substitiutes all "four" with "4" in the whole buffer
+* `flag g`: substitutes all occurence in the line
+* `flag c`: ask before substitution
+* `flag e`: when no substitiution occurs, it won't end in an error
+* `\<`: signalises the beginning of a word
+* `\>`: signalises the end of a word
+* `\1`: is a backreference, refers to the "\( \)" 
+
 ### lists
 
 * `:jumps`: shows the jump list
