@@ -292,7 +292,7 @@ examples:
 * `<ctrl+w> =`: make all windows equal in size
 * `[num]<ctrl+w> +-`: increase/decrease current window height
 * `[num]<ctrl+w> <>`: increase/decrease current window width
-* `<ctrl+w> _`: minimize current window
+* `<ctrl+w> _`: maximize current window
 * `<ctrl+w> T`: move current window to new tab
 
 [toc](#table-of-contents)
