@@ -124,6 +124,8 @@ move around the text (file) by:
 * `[num]gg` / `[num]G` / `:num<CR>` : go to line *num*
 * `gd`: go to definition of current word
 * `gf`: go to the file (under the cursor)
+* `gi`: go to last inserted
+* `gv`: go to last selected and select
 
 [toc](#table-of-contents)
 
