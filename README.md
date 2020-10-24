@@ -118,15 +118,6 @@ move around the text (file) by:
 * `<ctrl+b>` / `<ctrl+f>`: previous / next page 
 * `<ctrl+u>` / `<ctrl+d>`: previous / next half page 
 
-#### file
-
-* `gg` / `G`: go to begin / end of file
-* `[num]gg` / `[num]G` / `:num<CR>` : go to line *num*
-* `gd`: go to definition of current word
-* `gf`: go to the file (under the cursor)
-* `gi`: go to last inserted
-* `gv`: go to last selected and select
-
 [toc](#table-of-contents)
 
 ### searching
@@ -154,6 +145,16 @@ searching in *Normal Mode*:
 * `%`: matching (), {}, []
 * `m[char]` / `'[char]`: mark by / jump to `[char]` 
 * `m[CHAR]` / `'[CHAR]`: mark by / jump to `[CHAR]` across the files. 
+
+
+#### file
+
+* `gg` / `G`: go to begin / end of file
+* `[num]gg` / `[num]G` / `:num<CR>` : go to line *num*
+* `gd`: go to definition of current word
+* `gf`: go to the file (under the cursor)
+* `gi`: go to last inserted
+* `gv`: go to last selected and select
 
 [toc](#table-of-contents)
 
