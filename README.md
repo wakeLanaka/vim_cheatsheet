@@ -173,8 +173,8 @@ these commands take you in `Insert Mode`:
 * `s`: substitute at cursor and enter insert mode
 * `S` = `^DA` = `ddO`: delete current line and enter insert mode
 * `C` = `c$`: change line from cursor to EOL
-* `<c-t>`: right indent(>>)
-* `<c-d>`: left indent(<<)
+* `<c-i>`: right indent(>>)(In Insert-mode)
+* `<c-d>`: left indent(<<)(In Insert-mode)
 
 
 
