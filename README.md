@@ -319,6 +319,8 @@ examples:
 * `<ctrl+p>`: auto-complete / previous item
 * `<ctrl+n>`: auto-complete / next item
 * `<ctrl+x><ctrl+l>`: auto complete line mode
+* `<ctrl+x><ctrl+f>`: auto complete file
+
 
 ### cool editing stuff
 * `<ctrl+w>`: delete word before cursor
