@@ -315,7 +315,6 @@ examples:
 * `Esc` = `<ctrl+c>` = `<ctrl+[>`: exit insert mode
 
 ### auto complete
-
 * `<ctrl+p>`: auto-complete / previous item
 * `<ctrl+n>`: auto-complete / next item
 * `<ctrl+x><ctrl+l>`: auto complete line mode
@@ -328,6 +327,7 @@ examples:
 * `<ctrl+r>[char]`: insert content of register `[char]`
 * `<ctrl+t>`: increase line indent
 * `<ctrl+u>`: decrease line indent
+* `<ctrl+a>`: insert last inserted text(wie "." im Normal-Mode)
 
 [toc](#table-of-contents)
 
