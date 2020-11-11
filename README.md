@@ -386,7 +386,7 @@ examples:
 * `:mak[e]`: run make in current directory
 * `:cw`: toggle mini window for errors
 * `:!`: executes external shell command
-* `:r[ead]`: read external program output into current file
+* `:r[ead]`: read external program output into current file(mostly used as :r! "some terminal command")
 
 [toc](#table-of-contents)
 
@@ -396,6 +396,8 @@ examples:
 * `:vs[plit]` = `<ctrl+w> v`: split current window vertically
 * `:cl[ose]` = `<ctrl+w> c`: close current window
 * `:on[ly]` = `<ctrl+w> o`: close all windows except current one
+* `:sp | terminal` = opens in split-screen the terminal
+
 
 [toc](#table-of-contents)
 
