@@ -496,3 +496,7 @@ by executing `$> ctags -r` under project tree:
 * `:diffg LO`: get from LOCAL
 
 [toc](#table-of-contents)
+
+# Websites
+http://vimcasts.org/
+http://viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
