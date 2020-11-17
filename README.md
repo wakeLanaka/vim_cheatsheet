@@ -497,7 +497,7 @@ by executing `$> ctags -r` under project tree:
 
 [toc](#table-of-contents)
 
-##Stuff from the book
+## Stuff from the book
 * `gU{motion}`: uppercase everything in {motion}
 
 # Websites
