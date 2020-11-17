@@ -54,7 +54,7 @@ Starting Vim
 ----------
 
 
-# Stay as much as possible in (#normal-mode) to repeat actions with the '.'(Dot)!
+# Stay as much as possible in normal-mode to be able to repeat actions with the '.'(Dot)!
 
 # Vim modality
 vim has 3 main modes:
