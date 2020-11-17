@@ -497,6 +497,9 @@ by executing `$> ctags -r` under project tree:
 
 [toc](#table-of-contents)
 
+##Stuff from the book
+* `gU{motion}`: uppercase everything in {motion}
+
 # Websites
 http://vimcasts.org/
 http://viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
