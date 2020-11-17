@@ -501,6 +501,8 @@ by executing `$> ctags -r` under project tree:
 
 ## Stuff from the book
 * `gU{motion}`: uppercase everything in {motion}(gu for lowercase)
+* `gc{motion}`: Comment line(commentary Plugin)
+
 
 # Websites
 http://vimcasts.org/
