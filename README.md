@@ -509,7 +509,7 @@ by executing `$> ctags -r` under project tree:
 * `ctrl-o`: goes for ONE command to normal mode and automatic back to insert mode
 
 #Debugging in TTvim workflow
-* `:packadd termdebug` has to be executed every debugg session
+* `:packadd termdebug` has to be executed every debug session
 * Compile file, e.g. gcc -g file.c -o file
 * `:Termdebug [file]`
 * Commands:
