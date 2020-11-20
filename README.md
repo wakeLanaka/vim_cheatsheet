@@ -502,6 +502,11 @@ by executing `$> ctags -r` under project tree:
 ## Stuff from the book
 * `gU{motion}`: uppercase everything in {motion}(gu for lowercase)
 * `gc{motion}`: Comment line(commentary Plugin)
+### Insert mode
+* `ctrl-h`: backspace
+* `ctrl-w`: delete backwards a word
+* `ctrl-u`: delete from cursor to start of line
+* `ctrl-o`: goes for ONE command to normal mode and automatic back to insert mode
 
 
 # Websites
