@@ -509,18 +509,18 @@ by executing `$> ctags -r` under project tree:
 * `ctrl-o`: goes for ONE command to normal mode and automatic back to insert mode
 
 #Debugging in TTvim workflow
-1: `:packadd termdebug` has to be executed every debugg session
-2: Compile file, e.g. gcc -g file.c -o file
-3: `:Termdebug [file]`
-4: Commands:
-	* `:Break`: Create breakpoint at this line
-	* `:Clear`: Clear breakpoint at this line 
-	* `:Run`: Starts debugging
-	* `:Step`: One step further
-	* `:Continue`: Continue until next breakpoint
-	* `:Over`: Jump over function(do not step into function) 
-	* `:Finish`: run until end
-5: Inspect values with `K`(inspect under cursor) or `:Evaluate {variable}` 
+* `:packadd termdebug` has to be executed every debugg session
+* Compile file, e.g. gcc -g file.c -o file
+* `:Termdebug [file]`
+* Commands:
+	- `:Break`: Create breakpoint at this line
+	- `:Clear`: Clear breakpoint at this line 
+	- `:Run`: Starts debugging
+	- `:Step`: One step further
+	- `:Continue`: Continue until next breakpoint
+	- `:Over`: Jump over function(do not step into function) 
+	- `:Finish`: run until end
+* Inspect values with `K`(inspect under cursor) or `:Evaluate {variable}` 
 # Websites
 http://vimcasts.org/
 http://viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
