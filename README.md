@@ -341,6 +341,9 @@ examples:
 * `CTRL-B`: jump to the beginning of the command
 * `CTRL-R`: lets you get access to the registers
 * `CTRL-R CTRL-W`: adds the word under the cursor to the commandline
+* `CTRL-P`: Previous command
+* `CTRL-N`: Next command 
+
 
 ### Substitute
 * `:%s/four/4/g`: substitiutes all "four" with "4" in the whole buffer
