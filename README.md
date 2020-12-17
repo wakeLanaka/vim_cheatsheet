@@ -499,6 +499,8 @@ by executing `$> ctags -r` under project tree:
 * `:diffg RE`: get from REMOTE
 * `:diffg BA`: get from BASE
 * `:diffg LO`: get from LOCAL
+* `:diffoff`: to turn diff off
+* `:diffthis`: to turn diff on
 
 [toc](#table-of-contents)
 
