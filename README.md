@@ -494,7 +494,7 @@ by executing `$> ctags -r` under project tree:
 * `zr`: reducing folding level
 * `zm`: one more folding level, please
 * `:diffupdate`, `:diffu`: recalculate the diff* 
-* `:.diffg LOCAL`: get this line from LOCAL file
+* `:.diffg LOCAL`: get this line from LOCAL file (Beachte den "." vor diffg!!)
 * `V :diffget`: get this visually selected 
 * `V :diffput`: put this visually selected
 * `:diffg RE`: get from REMOTE
