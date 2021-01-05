@@ -119,6 +119,10 @@ move around the text (file) by:
 * `zb`: scroll to bottom 
 * `<ctrl+b>` / `<ctrl+f>`: previous / next page 
 * `<ctrl+u>` / `<ctrl+d>`: previous / next half page 
+* `(<ctrl+t>) <ctrl+H>`: change 2 Windows from horizontal to split
+* `(<ctrl+t>) <ctrl+K>`: change 2 Windows from split to horizontal 
+
+
 
 [toc](#table-of-contents)
 
@@ -482,6 +486,10 @@ by executing `$> ctags -r` under project tree:
 
 [toc](#table-of-contents)
 
+#Session
+* `:mksession <Session Name>.vim`: Creates a session with the actual opened files
+* `vim -S <Session Name>.vim`: Opens the session
+
 
 # Vimdiff
 
@@ -508,6 +516,7 @@ by executing `$> ctags -r` under project tree:
 ## Stuff from the book
 * `gU{motion}`: uppercase everything in {motion}(gu for lowercase)
 * `gc{motion}`: Comment line(commentary Plugin)
+* `cgn`: must have highlighted a word. Will be very useful for '.'
 ### Insert mode
 * `ctrl-h`: backspace
 * `ctrl-w`: delete backwards a word
@@ -516,7 +525,7 @@ by executing `$> ctags -r` under project tree:
 ### Visual mode
 * `o`: Go to other end of highlighted text
 
-### Ex mode
+### Command mode
 * `:(vert) term`: opens terminal
 
 # Websites
