@@ -20,7 +20,7 @@ Starting Vim
 			- [file](#file)
 		- [searching](#searching)
 		- [jumps and marks](#jumps-and-marks)
-		- [edit](#edit) 
+		- [edit](#edit)
 			- [goto insert mode](#goto-insert-mode)
 			- [stay in command mode](#stay-in-command-mode)
 			- [operators](#operators)
@@ -119,8 +119,8 @@ move around the text (file) by:
 * `zb`: scroll to bottom 
 * `<ctrl+b>` / `<ctrl+f>`: previous / next page 
 * `<ctrl+u>` / `<ctrl+d>`: previous / next half page 
-* `(<ctrl+t>) <ctrl+H>`: change 2 Windows from horizontal to split
-* `(<ctrl+t>) <ctrl+K>`: change 2 Windows from split to horizontal 
+* `(<ctrl+w>t) <ctrl+w>H`: change 2 Windows from horizontal to split
+* `(<ctrl+w>t) <ctrl+w>K`: change 2 Windows from split to horizontal 
 
 
 
@@ -486,10 +486,13 @@ by executing `$> ctags -r` under project tree:
 
 [toc](#table-of-contents)
 
-#Session
+# Session
 * `:mksession <Session Name>.vim`: Creates a session with the actual opened files
 * `vim -S <Session Name>.vim`: Opens the session
 
+# Nerdtree
+* `gi`: open file in horizonal split, but stay in Nerdtree
+* `gs`: open file in vertical split, but stay in Nerdtree
 
 # Vimdiff
 
